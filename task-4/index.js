@@ -1,3 +1,12 @@
 
-const array1 = [1, 3, 2,0,4,5,7,8,9,2,4,11,34,21,45,78,90,-33,6,9];
-alert( "The largest number is "  +  Math.max(...array1));
+ let max = [];
+let mymax = [0];
+
+for ( let i = 0; i <= 90; i++) {
+    max.push(i);
+if (max[i] >= mymax) {
+    mymax = max[i];
+   
+};
+};
+alert(mymax);

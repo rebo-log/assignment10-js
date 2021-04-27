@@ -1,8 +1,6 @@
 let num = parseInt(prompt('Enter  number ')) || 0  ;
 
 
-let val = num ;
-
 function narcissistic( value ) {
    let valStr = '' + value;
     let valLength = valStr.length;
@@ -11,10 +9,11 @@ function narcissistic( value ) {
       result += Math.pow((+valStr[i]), valLength);
     }
       return result === value;
+      
   };
+  
 
-
- if (narcissistic(num) === true ) {
+ if (narcissistic(num)) {
     alert(`Narcissistic Number`);
 }else{
     alert(`Not Narcissistic`);

@@ -1,5 +1,4 @@
-
-let arr = [2, 5, 4, 6, 8, 12,14 ,15,];
+let arr = [2, 5, 4, 6, 8, 12,14 ,20,];
 
 function even(a) {
   var ar = [];
@@ -10,6 +9,7 @@ function even(a) {
     }
 }
   return ar;
+  
 }
 
-alert(even(arr));
+alert(even(arr))

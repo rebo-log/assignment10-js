@@ -5,6 +5,7 @@ ar_1.forEach((c) => {
     if (!uniqueChars.includes(c)) {
         uniqueChars.push(c);
     }
+    
 });
 
 console.log(uniqueChars);
